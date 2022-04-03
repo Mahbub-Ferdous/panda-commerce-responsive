@@ -1,0 +1,123 @@
+/***************************** 
+    For-Full-Body-Css-common 
+******************************/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***************************
+    Custom-common-variable
+****************************/
+
+:root {
+  --white-color: #ffffff;
+  --black-color: #212529;
+  --pink-color: #ff136f;
+  --yellow-color: rgb(255, 165, 0);
+  --purple-color: rgb(218, 112, 214);
+  --blue-color: rgb(0, 0, 255);
+  --carousel-bg: #fceae8;
+}
+
+/*****************************
+  Navbar-custom-css-starts
+******************************/
+.btn-search {
+  background-color: #b9b4b4;
+  border-radius: 66px;
+}
+
+ul li {
+  font-size: 1.1rem;
+  padding-left: 15px;
+}
+.navbar-style {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+}
+/*****************************
+  Navbar-custom-css-endss
+******************************/
+
+/*******************************
+  Carousel-custom-css-starts
+********************************/
+
+.bg-carousel {
+  background-color: var(--carousel-bg);
+}
+.price {
+  color: var(--pink-color);
+}
+.btn-buy-now {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: var(--white-color);
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+}
+
+/*******************************
+  Carousel-custom-css-endss
+********************************/
+
+/********************************
+  Categories-custom-css-starts
+*********************************/
+
+.bg-1 {
+  background-color: var(--yellow-color);
+}
+.bg-2 {
+  background-color: var(--purple-color);
+}
+.bg-3 {
+  background-color: var(--blue-color);
+}
+.bg-1,
+.bg-2,
+.bg-3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+/********************************
+  Categories-custom-css-ends
+*********************************/
+
+/**************************** 
+  shoes-custom-css-starts
+*****************************/
+
+.rounded-5 {
+  border-radius: 10px;
+}
+
+/**************************** 
+  shoes-custom-css-ends
+*****************************/
+
+/******************************
+  subscribe-custom-css-starts 
+*******************************/
+
+.bg-color {
+  background-color: var(--carousel-bg);
+  border-radius: 10px;
+  height: 300px;
+}
+.radius {
+  border-radius: 10px;
+}
+
+/****************************
+  subscribe-custom-css-ends 
+*****************************/
